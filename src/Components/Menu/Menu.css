@@ -1,0 +1,134 @@
+.class_menu_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100vh;
+    background-color: #1c3a44;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+}
+
+.class_menu_normal {
+    display: flex;
+}
+
+.class_main_menu_icon {
+    display: none;
+}
+
+.class_menu_responsive {
+    display: none;
+}
+
+.class_menu_fake {
+    width: 350px;
+    background-color: #1c3a44;
+}
+
+.class_menu_image {
+    border-style: double;
+    border-width: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 50px;
+    border-color: white;
+    transition: 0.5s;
+}
+
+.image_transition {
+    filter: opacity(0);
+}
+
+.class_menu_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.class_menu_items_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.class_menu_items_title {
+    display: flex;
+    justify-content: center;
+    background-color: #7a6038;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}     
+
+.class_menu_item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-color: gray;
+    transition: 0.5s;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.class_menu_item:hover {
+    background-color: #2385be;
+}
+
+.menu_first {
+    border-style: solid !important;
+    border-top: 1px;
+    border-color: gray;
+}
+
+.item_transition {
+    visibility: hidden;
+    border-color: #09334b;
+    color: #09334b;
+    background-color: #0c4769;
+    color: orange;
+}
+
+.class_menu_icon {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+
+
+.class_menu_icon i {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #254955;
+    transition: 0.5s;
+}
+
+.class_menu_icon i:hover {
+    background-color: #2385be;
+}
+
+.icon_transition i {
+    visibility: hidden;
+    border-color: #1c3a44;
+    color: #1c3a44;
+}

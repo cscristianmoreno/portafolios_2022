@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eea68cab.css",
+    "main.js": "/static/js/main.a1a7d205.js",
+    "static/media/panel_inicio.jpg": "/static/media/panel_inicio.c8b690f44e8eedd02a02.jpg",
+    "static/media/react-ecommerce.png": "/static/media/react-ecommerce.959bb0a77410c335a93f.png",
+    "static/media/photo.jpg": "/static/media/photo.76830257ef64de49dc03.jpg",
+    "index.html": "/index.html",
+    "main.eea68cab.css.map": "/static/css/main.eea68cab.css.map",
+    "main.a1a7d205.js.map": "/static/js/main.a1a7d205.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eea68cab.css",
+    "static/js/main.a1a7d205.js"
+  ]
+}
