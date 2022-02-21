@@ -36,7 +36,7 @@ const Skill = () => {
                         setTimeout(() => {
                         str.classList.remove("class_element_display");
                         str.classList.add("class_element_transition");
-                    }, 125 * (index + 1))
+                    }, 75 * (index + 1))
                     )
                 })
             }
