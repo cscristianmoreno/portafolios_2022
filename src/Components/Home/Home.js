@@ -41,7 +41,9 @@ const Home = () => {
     }, []);
 
     const addIconRef = (ev) => {
-        iconRef.current.push(ev);
+        if (ev && !iconRef.current.includes(ev)) {
+            iconRef.current.push(ev);
+        }
     }
 
     return(
