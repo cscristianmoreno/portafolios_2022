@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c48f273f.css",
-    "main.js": "/static/js/main.1a576cd3.js",
+    "main.js": "/static/js/main.eddc1ee8.js",
     "static/media/react-hotel-search.jpg": "/static/media/react-hotel-search.be33b2b4a521ebf60ca5.jpg",
     "static/media/panel_inicio.jpg": "/static/media/panel_inicio.c8b690f44e8eedd02a02.jpg",
     "static/media/react-ecommerce.png": "/static/media/react-ecommerce.959bb0a77410c335a93f.png",
     "static/media/photo.jpg": "/static/media/photo.76830257ef64de49dc03.jpg",
     "index.html": "/index.html",
     "main.c48f273f.css.map": "/static/css/main.c48f273f.css.map",
-    "main.1a576cd3.js.map": "/static/js/main.1a576cd3.js.map"
+    "main.eddc1ee8.js.map": "/static/js/main.eddc1ee8.js.map"
   },
   "entrypoints": [
     "static/css/main.c48f273f.css",
-    "static/js/main.1a576cd3.js"
+    "static/js/main.eddc1ee8.js"
   ]
 }
