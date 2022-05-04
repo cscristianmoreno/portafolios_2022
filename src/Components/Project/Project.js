@@ -5,6 +5,7 @@ import MenuContext from "../../Context/MenuContext.js";
 import "./Project.css";
 import panel_inicio from "./images/panel_inicio.jpg";
 import react_ecommerce from "./images/react-ecommerce.png";
+import react_hotel_search from "./images/react-hotel-search.jpg";
 
 import Html from "../Skill/images/Html.js";
 import Css from "../Skill/images/Css.js";
@@ -68,16 +69,24 @@ const Project = () => {
         <div ref={indexRef} className="class_project_container">
             <span ref={addRef} className="class_title"><i className="fas fa-briefcase"/>Proyectos</span>
 
-            <div className="class_project_main">
-                <div className="class_project_image_container">
+            <div ref={addRef} className="class_project_main">
+                <div ref={addRef} className="class_project_image_container">
                     <img ref={addRef} src={panel_inicio}/>
 
-                    <div className="class_project_description_container">
-                        <div className="class_project_description_title">
-                            <span ref={addRef} >INFORMACIÓN DEL PROYECTO</span>
-                        </div>
+                    <div className="class_project_icons">
+                        <span className="class_project_description_title">
+                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
 
-                        <div ref={addRef} className="class_project_description_technology">
+                            <div className="class_project_title_link">
+                                <span>Panel de usuario</span>
+                                <span className="class_project_subtitle_link">(<i style={{fontSize: "13px", color: "red"}} className="fas fa-ban"/>)
+                                </span>
+                            </div>
+                        </span>
+
+                        <div className="class_project_icons_separated"/>
+
+                        <div className="class_project_description_technology">
                             <Html/>
                             <Css/>
                             <Javascript/>
@@ -85,55 +94,56 @@ const Project = () => {
                             <Mysql/>
                             <Bootstrap/>
                         </div>
-
-                        <div className="class_project_description_date">
-                            <span ref={addRef} className="class_project_description_date_title">Inicio:</span>
-                            <span ref={addRef}>2021</span>
-                        </div>
-
-                        <div className="class_project_description_date">
-                            <span ref={addRef} className="class_project_description_date_title">Categoría:</span>
-                            <span ref={addRef}>Panel de usuario</span>
-                        </div>
-
-                        <div className="class_project_description_date">
-                            <span ref={addRef} className="class_project_description_date_title">Enlace:</span>
-                            <span ref={addRef}>-</span>
-                        </div>
                     </div>
                 </div>
 
-                <div className="class_project_image_container">
+                <div ref={addRef} className="class_project_image_container">
                     <img ref={addRef} src={react_ecommerce}/>
 
-                    <div className="class_project_description_container">
-                        <div className="class_project_description_title">
-                            <span ref={addRef}>INFORMACIÓN DEL PROYECTO</span>
-                        </div>
+                    <div ref={addRef} className="class_project_icons">
+                        <a className="class_project_description_title" href="https://cscristianmoreno.github.io/react-ecommerce/" target="_blank">
+                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
+                            
+                            <div className="class_project_title_link">
+                                <span>Tienda e-commerce</span>
+                                <span className="class_project_subtitle_link">(Click para navegar)</span>
+                            </div>
+                        </a>
 
-                        <div ref={addRef }className="class_project_description_technology">
+                        <div className="class_project_icons_separated"/>
+
+                        <div className="class_project_description_technology">
                             <React/>
                             <Html/>
                             <Css/>
                             <Javascript/>
                             <Bootstrap/>
                         </div>
+                    </div>
+                </div>
 
-                        <div className="class_project_description_date">
-                            <span ref={addRef} className="class_project_description_date_title">Inicio:</span>
-                            <span ref={addRef}>2022</span>
-                        </div>
+                <div ref={addRef} className="class_project_image_container">
+                    <img ref={addRef} src={react_hotel_search}/>
 
-                        <div className="class_project_description_date">
-                            <span ref={addRef} className="class_project_description_date_title">Categoría:</span>
-                            <span ref={addRef}>Ecommerce</span>
-                        </div>
+                    <div ref={addRef} className="class_project_icons">
+                        <a className="class_project_description_title" href="https://cscristianmoreno.github.io/react-hotel-search/#" target="_blank">
+                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
 
-                        <div className="class_project_description_date">
-                            <span ref={addRef} className="class_project_description_date_title">Enlace:</span>
-                            <a href="https://cscristianmoreno.github.io/react-ecommerce/" target="_blank">
-                                <i ref={addRef} className="fas fa-link"></i>
-                            </a>
+                            <div className="class_project_title_link">
+                                <span>Buscador de hoteles</span>
+                                <span className="class_project_subtitle_link">(Click para navegar)</span>
+                            </div>
+                        </a>
+
+                        <div className="class_project_icons_separated"/>
+
+                        <div className="class_project_description_technology">
+                            <React/>
+                            <Html/>
+                            <Css/>
+                            <Javascript/>
+                            <Bootstrap/>
+                            <Nodejs/>
                         </div>
                     </div>
                 </div>
