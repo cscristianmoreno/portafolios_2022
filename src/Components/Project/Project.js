@@ -69,9 +69,9 @@ const Project = () => {
         <div ref={indexRef} className="class_project_container">
             <span ref={addRef} className="class_title"><i className="fas fa-briefcase"/>Proyectos</span>
 
-            <div ref={addRef} className="class_project_main">
-                <div ref={addRef} className="class_project_image_container">
-                    <img ref={addRef} src={panel_inicio}/>
+            <div className="class_project_main">
+                <div className="class_project_image_container">
+                    <img lazy="loading" src={panel_inicio}/>
 
                     <div className="class_project_icons">
                         <span className="class_project_description_title">
@@ -97,10 +97,10 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div ref={addRef} className="class_project_image_container">
-                    <img ref={addRef} src={react_ecommerce}/>
+                <div className="class_project_image_container">
+                    <img lazy="loading" src={react_ecommerce}/>
 
-                    <div ref={addRef} className="class_project_icons">
+                    <div className="class_project_icons">
                         <a className="class_project_description_title" href="https://cscristianmoreno.github.io/react-ecommerce/" target="_blank">
                             <i className="fas fa-briefcase"/>&nbsp;&nbsp;
                             
@@ -122,10 +122,10 @@ const Project = () => {
                     </div>
                 </div>
 
-                <div ref={addRef} className="class_project_image_container">
-                    <img ref={addRef} src={react_hotel_search}/>
+                <div className="class_project_image_container">
+                    <img lazy="loading" src={react_hotel_search}/>
 
-                    <div ref={addRef} className="class_project_icons">
+                    <div className="class_project_icons">
                         <a className="class_project_description_title" href="https://cscristianmoreno.github.io/react-hotel-search/#" target="_blank">
                             <i className="fas fa-briefcase"/>&nbsp;&nbsp;
 
