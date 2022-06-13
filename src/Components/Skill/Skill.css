@@ -35,7 +35,7 @@
 }
 
 .class_skill_icon svg path {
-    fill: #f7bd52;
+    fill: orange;
     
 }
 
@@ -53,8 +53,8 @@
 .class_skill span {
     text-align: center;
     margin-top: 5px;
-    color: white;
-    font-weight: bolder;
+    color: #dfdbdb;
+    font-weight: 500;
 }
 
 .class_skill_icon .class_element_display {
