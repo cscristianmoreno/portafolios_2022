@@ -179,7 +179,7 @@ const About = () => {
                     </div>
 
                     <div className="class_about_button_container">
-                        <a href="https://drive.google.com/uc?export=download&id=1eZq0EHwuqKW6e9bzcMeJ3B7tDWCRzHTs" target="_blank">
+                        <a href="https://drive.google.com/uc?export=download&id=15xpwv-Y9QhlDgVX3G8eyEocNv_8q600X" target="_blank">
                             <button ref={addRef} className="class_button_cv">Descargar CV</button>
                         </a>
                     </div>
