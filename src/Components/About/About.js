@@ -130,8 +130,8 @@ const About = () => {
                     </p>
 
                     <p ref={addRef}>
-                        Empecé mi travesía en el mundo del desarollo web en el año 2021 introduciéndome en sitios, videos y guías que difunden el conocimiento y las herramientas necesarias
-                        para empezar.
+                        Empecé en el mundo de la programación hace 10 años en un lenguaje basado en C (Pawn) lo cual me dio una base bastante sólida para empezar a aprender nuevos lenguajes de programación. Actualmente poseo
+                        2 años de experiencia como autodidacta en el mundo del desarrollo web.
                     </p>
 
                     <span ref={addRef} className="class_about_interest_title">Intereses</span>
@@ -179,7 +179,7 @@ const About = () => {
                     </div>
 
                     <div className="class_about_button_container">
-                        <a href="https://drive.google.com/uc?export=download&id=15xpwv-Y9QhlDgVX3G8eyEocNv_8q600X" target="_blank">
+                        <a href="https://drive.google.com/uc?export=download&id=1BoAv1gh_mVp4icr2rI29Tec-07w31_J8" target="_blank">
                             <button ref={addRef} className="class_button_cv">Descargar CV</button>
                         </a>
                     </div>

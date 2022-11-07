@@ -12,6 +12,9 @@ import Git from "./images/Git.js";
 import React from "./images/React.js";
 import Boostrap from "./images/Boostrap.js";
 import Jquery from "./images/Jquery.js";
+import C from "./images/C.js";
+import Sqlite from "./images/Sqlite.js";
+import Filezilla from "./images/Filezilla.js";
 
 
 const Skill = () => {
@@ -102,7 +105,6 @@ const Skill = () => {
                     <Git/>
                     <span>GIT</span>
                 </div>
-
             </div>
 
             <div className="class_skill_icon">
@@ -118,7 +120,24 @@ const Skill = () => {
 
                 <div ref={addRef} className="class_skill">
                     <Jquery/>
-                    <span> jQuery</span>
+                    <span>jQuery</span>
+                </div>
+            </div>
+
+            <div className="class_skill_icon">
+                <div ref={addRef} className="class_skill">
+                    <C/>
+                    <span>C (Pawn)</span>
+                </div>
+
+                <div ref={addRef} className="class_skill">
+                    <Sqlite/>
+                    <span>SQLite3</span>
+                </div>
+
+                <div ref={addRef} className="class_skill">
+                    <Filezilla/>
+                    <span>Filezilla</span>
                 </div>
             </div>
         </div>
