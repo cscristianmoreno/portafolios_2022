@@ -130,7 +130,7 @@ const About = () => {
                     </p>
 
                     <p ref={addRef}>
-                        Empecé en el mundo de la programación hace 10 años en un lenguaje basado en C (Pawn) lo cual me dio una base bastante sólida para empezar a aprender nuevos lenguajes de programación. Actualmente poseo
+                        Empecé en el mundo de la programación hace 10 años en un lenguaje basado en C (Pawn) lo cual me dio una base bastante sólida para empezar a aprender nuevas tecnologías de programación. Actualmente poseo
                         2 años de experiencia como autodidacta en el mundo del desarrollo web.
                     </p>
 
