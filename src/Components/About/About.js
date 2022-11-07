@@ -75,7 +75,7 @@ const About = () => {
 
                             <div className="class_about_text">
                                 <span className="class_about_text_title">Edad:</span>
-                                <span>25</span>
+                                <span>26</span>
                             </div>
 
                             <div className="class_about_text">
