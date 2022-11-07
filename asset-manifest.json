@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc58f947.css",
-    "main.js": "/static/js/main.5dc70987.js",
+    "main.css": "/static/css/main.bc8a7804.css",
+    "main.js": "/static/js/main.706ec1b5.js",
     "static/media/react-hotel-search.jpg": "/static/media/react-hotel-search.be33b2b4a521ebf60ca5.jpg",
     "static/media/fundacion.jpg": "/static/media/fundacion.18ff8a2b48a6668f2084.jpg",
+    "static/media/spotify.jpg": "/static/media/spotify.f02b08f9a35ecba15c78.jpg",
+    "static/media/anovo.jpg": "/static/media/anovo.347160eb006e41069e1c.jpg",
     "static/media/panel_inicio.jpg": "/static/media/panel_inicio.c8b690f44e8eedd02a02.jpg",
+    "static/media/reforce.jpg": "/static/media/reforce.ff06af3fd48c93f8ae7b.jpg",
     "static/media/react-ecommerce.png": "/static/media/react-ecommerce.959bb0a77410c335a93f.png",
     "static/media/photo.jpg": "/static/media/photo.76830257ef64de49dc03.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.dc58f947.css.map": "/static/css/main.dc58f947.css.map",
-    "main.5dc70987.js.map": "/static/js/main.5dc70987.js.map"
+    "main.bc8a7804.css.map": "/static/css/main.bc8a7804.css.map",
+    "main.706ec1b5.js.map": "/static/js/main.706ec1b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc58f947.css",
-    "static/js/main.5dc70987.js"
+    "static/css/main.bc8a7804.css",
+    "static/js/main.706ec1b5.js"
   ]
 }
