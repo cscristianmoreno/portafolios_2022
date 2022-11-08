@@ -4,6 +4,7 @@ import About from "../About/About.js";
 import Skill from "../Skill/Skill.js";
 import Service from "../Service/Service.js";
 import Project from "../Project/Project.js";
+import Contact from "../Contact/Contact.js";
 import "./Body.css";
 
 import { PositionProvider } from "../../Context/MenuContext.js";
@@ -19,6 +20,7 @@ const Body = () => {
                     <Skill/>
                     <Service/>
                     <Project/>
+                    <Contact/>
                 </div>
             </PositionProvider>
         </>

@@ -146,6 +146,7 @@ const Menu = () => {
                     <span onClick={() => handledItemMenu(2)} style={{color: (itemPosition === 2) ? "orange" : "white"}} ref={addRef} className="class_menu_item item_transition">Tecnologías</span>
                     <span onClick={() => handledItemMenu(3)} style={{color: (itemPosition === 3) ? "orange" : "white"}} ref={addRef} className="class_menu_item item_transition">Servicios</span>
                     <span onClick={() => handledItemMenu(4)} style={{color: (itemPosition === 4) ? "orange" : "white"}} ref={addRef} className="class_menu_item item_transition">Proyectos</span>
+                    <span onClick={() => handledItemMenu(5)} style={{color: (itemPosition === 5) ? "orange" : "white"}} ref={addRef} className="class_menu_item item_transition">Contacto</span>
                 </div>
             </div>
 
@@ -168,6 +169,7 @@ const Menu = () => {
                     <span onClick={() => handledItemMenu(2)} style={{color: (itemPosition === 2) ? "orange" : "white"}} ref={addRefResponsive} className="class_menu_item item_transition">Tecnologías</span>
                     <span onClick={() => handledItemMenu(3)} style={{color: (itemPosition === 3) ? "orange" : "white"}} ref={addRefResponsive} className="class_menu_item item_transition">Servicios</span>
                     <span onClick={() => handledItemMenu(4)} style={{color: (itemPosition === 4) ? "orange" : "white"}} ref={addRefResponsive} className="class_menu_item item_transition">Proyectos</span>
+                    <span onClick={() => handledItemMenu(5)} style={{color: (itemPosition === 5) ? "orange" : "white"}} ref={addRefResponsive} className="class_menu_item item_transition">Contacto</span>
                 </div>
             </div>
         </>

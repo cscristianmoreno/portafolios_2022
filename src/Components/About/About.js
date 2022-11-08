@@ -126,7 +126,7 @@ const About = () => {
                     <span ref={addRef} className="class_about_me_title">Acerca de mí</span>
 
                     <p ref={addRef}>
-                        Hola, mi nombre es Cristian Moreno, tengo 25 años y soy de Argentina. Me considero una persona autodidacta y mi pasión por la programación y compromiso me llevó al camino que estoy tomando hoy
+                        Hola, mi nombre es Cristian Moreno, tengo 26 años y soy de Argentina. Me considero una persona autodidacta y mi pasión por la programación y compromiso me llevó al camino que estoy tomando hoy
                     </p>
 
                     <p ref={addRef}>

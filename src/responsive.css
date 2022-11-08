@@ -157,6 +157,11 @@
         width: 100%;
         margin-top: 30px;
     }
+
+    .class_form_container {
+        width: 85% !important;
+        margin-bottom: 20px;
+    }
 }
 
 /* Pixel 2 */

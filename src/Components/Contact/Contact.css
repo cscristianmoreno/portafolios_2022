@@ -1,0 +1,45 @@
+.class_form_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+}
+
+.class_field_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.class_field_container label {
+    color: white;
+    font-weight: bolder;
+}
+
+.class_field_container textarea {
+    height: 200px;
+    resize: none;
+}
+
+.class_field_style {
+    padding: 10px;
+    background-color: #fcf8f8;
+    outline: none;
+    border-color: #384d92;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.class_field_style:focus {
+    border-color: #a1b6fc;
+}
+
+.class_form_button {
+    margin-top: 30px;
+}
+
+.class_form_button_spinner {
+    border-radius: 100%;
+    cursor: not-allowed;
+}
