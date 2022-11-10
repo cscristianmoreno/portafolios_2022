@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4ff3340.css",
-    "main.js": "/static/js/main.62fde618.js",
+    "main.css": "/static/css/main.7e3998bd.css",
+    "main.js": "/static/js/main.9d66331b.js",
     "static/media/react-hotel-search.jpg": "/static/media/react-hotel-search.be33b2b4a521ebf60ca5.jpg",
     "static/media/fundacion.jpg": "/static/media/fundacion.18ff8a2b48a6668f2084.jpg",
     "static/media/spotify.jpg": "/static/media/spotify.f02b08f9a35ecba15c78.jpg",
@@ -14,12 +14,10 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.f4ff3340.css.map": "/static/css/main.f4ff3340.css.map",
-    "main.62fde618.js.map": "/static/js/main.62fde618.js.map"
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.f4ff3340.css",
-    "static/js/main.62fde618.js"
+    "static/css/main.7e3998bd.css",
+    "static/js/main.9d66331b.js"
   ]
 }
