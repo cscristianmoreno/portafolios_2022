@@ -83,8 +83,7 @@ const Contact = () => {
             url: "https://portafolios-backend.vercel.app/send_email",
             params: event
         })
-
-        console.log(response.data);
+        
         setSpinner(false);
         setMessageStatus(response.data.success);
         setMessageAnnouncement(1);
