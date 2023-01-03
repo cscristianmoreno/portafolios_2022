@@ -15,6 +15,7 @@ import Jquery from "./images/Jquery.js";
 import C from "./images/C.js";
 import Sqlite from "./images/Sqlite.js";
 import Filezilla from "./images/Filezilla.js";
+import ReactNative from "./images/ReactNative.js";
 
 
 const Skill = () => {
@@ -132,12 +133,12 @@ const Skill = () => {
 
                 <div ref={addRef} className="class_skill">
                     <Sqlite/>
-                    <span>SQLite3</span>
+                    <span>SQLite</span>
                 </div>
 
                 <div ref={addRef} className="class_skill">
-                    <Filezilla/>
-                    <span>Filezilla</span>
+                    <ReactNative/>
+                    <span>React Native</span>
                 </div>
             </div>
         </div>

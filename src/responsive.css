@@ -134,28 +134,37 @@
         margin-bottom: 30px;
     }
 
-    .class_project_main {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .class_project_icons {
+        height: 40% !important;
+    }
+
+    .class_project_description_title {
+        margin-left: 10px !important;
     }
 
     .class_project_image_container {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        width: 80% !important;
-        margin-top: 50px;
+        height: 500px !important;
     }
 
-    .class_project_image_container img {
-        width: 100%;
+    .class_project_description_text, .class_project_description_text_title {
+        font-size: 14px !important;
     }
 
-    .class_project_description_container {
-        width: 100%;
-        margin-top: 30px;
+    .class_project_description_technology svg {
+        width: 40px !important;
+    }
+
+    .class_project_description_text_title, .class_project_description_text, .class_project_payment {
+        /* width: auto !important; */
+        font-size: 13px !important;
+    }
+
+    .class_project_page {
+        font-size: 11px !important;
+    }
+
+    .class_project_title_link {
+        font-size: 14px !important;
     }
 
     .class_form_container {

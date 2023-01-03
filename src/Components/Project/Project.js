@@ -15,6 +15,7 @@ import fundacion from "./images/fundacion.jpg";
 import reforce from "./images/reforce.jpg";
 import anovo from "./images/anovo.jpg";
 import spotify from "./images/spotify.jpg";
+import search_image from "./images/search_image.jpg";
 
 import Html from "../Skill/images/Html.js";
 import Css from "../Skill/images/Css.js";
@@ -23,6 +24,29 @@ import Nodejs from "../Skill/images/Nodejs.js";
 import Mysql from "../Skill/images/Mysql.js";
 import React from "../Skill/images/React.js";
 import Bootstrap from "../Skill/images/Boostrap.js";
+import Sqlite from "../Skill/images/Sqlite.js";
+
+const PROJECTS = [
+    { name: "Panel de usuario", image: panel_inicio, url: "", icons: [<Html/>, <Css/>, <Javascript/>, <Nodejs/>, <Mysql/>, <Bootstrap/>], payment: 0 },
+    { name: "Tienda e-commerce", image: react_ecommerce, url: "https://cscristianmoreno.github.io/react-ecommerce/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>, <Bootstrap/>], payment: 0 },
+    { name: "Buscador de hoteles", image: react_hotel_search, url: "https://cscristianmoreno.github.io/react-hotel-search/#", icons: [<React/>, <Html/>, <Css/>, <Javascript/>, <Bootstrap/>, <Nodejs/>], payment: 0 },
+    { name: "Fundación Salteña de Tartamudez", image: fundacion, url: "https://salta-fundacion-tartamudez.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>, <Bootstrap/>], payment: 0 },
+    { name: "Reforce Infinity", image: reforce, url: "https://proyecto-reforce.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>, <Nodejs/>], payment: 1 },
+    { name: "Anovo", image: anovo, url: "https://proyecto-anovo.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 1 },
+    { name: "Proyecto Spotify", image: spotify, url: "https://cristian-moreno-frontend.vercel.app/#", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 0 },
+    { name: "Search Image", image: search_image, url: "", icons: [<React/>, <Css/>, <Javascript/>, <Sqlite/>], payment: 0 },
+]
+
+const PROJECTS_DESCRIPTION = [
+    "Simple panel de usuarios que utiliza la API de Mercado Pago para realizar transferencias.",
+    "Este proyecto simula un E-Commerce, permite almacenar y eliminar tus productos.",
+    "Este proyecto utiliza la API de Impala Travel para obtener sus hoteles, simula una página de hoteles.",
+    "Este proyecto brinda información y asesoría a personas con tartamudez.",
+    "Reforce Infinity es un proyecto realizado para una compañía de desarrollo relacionado al metaverso.",
+    "Anovo es un proyecto realizado para una compañía el cual se ocupa de brindar soluciones.",
+    "Este proyecto utiliza la API de Spotify para obtener los álbumes de los usuarios.",
+    "Esta app utiliza la API de Pexels y una base de datos para buscar y almacenar imágenes.",
+]
 
 const Project = () => {
     const elementRef = useRef([]);
@@ -38,14 +62,14 @@ const Project = () => {
     }
     
     const settings = {
-        className: "center",
-        centerMode: "true",
+        // className: "center",
+        // centerMode: "true",
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 1,
         slidestoScroll: 1,
         speed: 1500,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 10000
     };
 
     useEffect(() => {
@@ -89,182 +113,72 @@ const Project = () => {
         <div ref={indexRef} className="class_project_container">
             <span ref={addRef} className="class_title"><i className="fas fa-briefcase"/>Proyectos</span>
 
-            <div ref={addRef} className="class_project_main">
-                <div className="class_project_image_container">
-                    <img src={panel_inicio}/>
+            <div className="class_project_slider_container">
 
-                    <div className="class_project_icons">
-                        <span className="class_project_description_title">
-                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
+                <Slider {...settings} className="class_project_main">
 
-                            <div className="class_project_title_link">
-                                <span>Panel de usuario</span>
-                                <span className="class_project_subtitle_link">(<i style={{fontSize: "13px", color: "red"}} className="fas fa-ban"/>)
-                                </span>
-                            </div>
-                        </span>
+                    {
+                        PROJECTS.map((str, num) => {
+                            return(
+                                <div key={num} className="class_project_image_container">
+                                    <img src={str.image}/>
 
-                        <div className="class_project_icons_separated"/>
+                                    <div className="class_project_icons">
+                                        {
+                                            (str.url.length) ?
+                                                <div className="class_project_description_container">
+                                                    <a className="class_project_description_title" href={str.url} target="_blank">
+                                                        <i className="fas fa-briefcase"/>&nbsp;&nbsp;
+                                                        
+                                                        <div className="class_project_title_link">
+                                                            <span>{str.name} {(str.payment) ? <span className="class_project_payment">&nbsp;(FREELANCE)</span> : null}</span>
+                                                            <span className="class_project_subtitle_link">(Click para navegar)</span>
+                                                        </div>
 
-                        <div className="class_project_description_technology">
-                            <Html/>
-                            <Css/>
-                            <Javascript/>
-                            <Nodejs/>
-                            <Mysql/>
-                            <Bootstrap/>
-                        </div>
-                    </div>
-                </div>
+                                                    </a>
 
-                <div ref={addRef} className="class_project_image_container">
-                    <img src={react_ecommerce}/>
+                                                    <span className="class_project_page">{num + 1} / {PROJECTS.length}</span>
+                                                </div>
+                                            :
+                                                <div className="class_project_description_container">
+                                                    <span className="class_project_description_title">
+                                                        <i className="fas fa-briefcase"/>&nbsp;&nbsp;
 
-                    <div className="class_project_icons">
-                        <a className="class_project_description_title" href="https://cscristianmoreno.github.io/react-ecommerce/" target="_blank">
-                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
-                            
-                            <div className="class_project_title_link">
-                                <span>Tienda e-commerce</span>
-                                <span className="class_project_subtitle_link">(Click para navegar)</span>
-                            </div>
-                        </a>
+                                                        <div className="class_project_title_link">
+                                                            <span>{str.name}</span>
+                                                            <span className="class_project_subtitle_link">(<i style={{fontSize: "13px", color: "red"}} className="fas fa-ban"/>)
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                    
+                                                    <span className="class_project_page">{num + 1}/{PROJECTS.length}</span>
+                                                </div>
+                                        }
 
-                        <div className="class_project_icons_separated"/>
+                                        <div className="class_project_icons_separated"/>
+                                        
 
-                        <div className="class_project_description_technology">
-                            <React/>
-                            <Html/>
-                            <Css/>
-                            <Javascript/>
-                            <Bootstrap/>
-                        </div>
-                    </div>
-                </div>
+                                        <div className="class_project_description_text_container">
+                                            <span className="class_project_description_text_title">DESCRIPCIÓN:</span>
+                                            <span className="class_project_description_text">{PROJECTS_DESCRIPTION[num]}</span>    
+                                        </div>
 
-                <div ref={addRef} className="class_project_image_container">
-                    <img src={react_hotel_search}/>
+                                        {/* <div className="class_project_icons_separated"/> */}
+                                        
 
-                    <div className="class_project_icons">
-                        <a className="class_project_description_title" href="https://cscristianmoreno.github.io/react-hotel-search/#" target="_blank">
-                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
-
-                            <div className="class_project_title_link">
-                                <span>Buscador de hoteles</span>
-                                <span className="class_project_subtitle_link">(Click para navegar)</span>
-                            </div>
-                        </a>
-
-                        <div className="class_project_icons_separated"/>
-
-                        <div className="class_project_description_technology">
-                            <React/>
-                            <Html/>
-                            <Css/>
-                            <Javascript/>
-                            <Bootstrap/>
-                            <Nodejs/>
-                        </div>
-                    </div>
-                </div>
-
-                <div ref={addRef} className="class_project_image_container">
-                    <img src={fundacion}/>
-
-                    <div className="class_project_icons">
-                        <a className="class_project_description_title" href="https://salta-fundacion-tartamudez.vercel.app/" target="_blank">
-                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
-
-                            <div className="class_project_title_link">
-                                <span>Fundación Salteña de Tartamudez</span>
-                                <span className="class_project_subtitle_link">(Click para navegar)</span>
-                            </div>
-                        </a>
-
-                        <div className="class_project_icons_separated"/>
-
-                        <div className="class_project_description_technology">
-                            <React/>
-                            <Html/>
-                            <Css/>
-                            <Javascript/>
-                            <Bootstrap/>
-                        </div>
-                    </div>
-                </div>
-
-                <div ref={addRef} className="class_project_image_container">
-                    <img src={reforce}/>
-
-                    <div className="class_project_icons">
-                        <a className="class_project_description_title" href="https://proyecto-reforce.vercel.app/" target="_blank">
-                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
-
-                            <div className="class_project_title_link">
-                                <span>Reforce Infinity</span>
-                                <span className="class_project_subtitle_link">(Click para navegar)</span>
-                            </div>
-                        </a>
-
-                        <div className="class_project_icons_separated"/>
-
-                        <div className="class_project_description_technology">
-                            <React/>
-                            <Html/>
-                            <Css/>
-                            <Javascript/>
-                            <Nodejs/>
-                        </div>
-                    </div>
-                </div>
-
-                <div ref={addRef} className="class_project_image_container">
-                    <img src={anovo}/>
-
-                    <div className="class_project_icons">
-                        <a className="class_project_description_title" href="https://proyecto-anovo.vercel.app/" target="_blank">
-                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
-
-                            <div className="class_project_title_link">
-                                <span>Anovo</span>
-                                <span className="class_project_subtitle_link">(Click para navegar)</span>
-                            </div>
-                        </a>
-
-                        <div className="class_project_icons_separated"/>
-
-                        <div className="class_project_description_technology">
-                            <React/>
-                            <Html/>
-                            <Css/>
-                            <Javascript/>
-                        </div>
-                    </div>
-                </div>
-
-                <div ref={addRef} className="class_project_image_container">
-                    <img src={spotify}/>
-
-                    <div className="class_project_icons">
-                        <a className="class_project_description_title" href="https://cristian-moreno-frontend.vercel.app/#" target="_blank">
-                            <i className="fas fa-briefcase"/>&nbsp;&nbsp;
-
-                            <div className="class_project_title_link">
-                                <span>Proyecto Spotify (Spotify API)</span>
-                                <span className="class_project_subtitle_link">(Click para navegar)</span>
-                            </div>
-                        </a>
-
-                        <div className="class_project_icons_separated"/>
-
-                        <div className="class_project_description_technology">
-                            <React/>
-                            <Html/>
-                            <Css/>
-                            <Javascript/>
-                        </div>
-                    </div>
-                </div>
+                                        <div className="class_project_description_technology">
+                                        {
+                                            str.icons.map((str) => {
+                                                return str;
+                                            })
+                                        }
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </Slider>
             </div>
         </div>
     );
