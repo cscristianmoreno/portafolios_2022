@@ -27,7 +27,7 @@ import Bootstrap from "../Skill/images/Boostrap.js";
 import Sqlite from "../Skill/images/Sqlite.js";
 
 const PROJECTS = [
-    { name: "Panel de usuario", image: panel_inicio, url: "", icons: [<Html/>, <Css/>, <Javascript/>, <Nodejs/>, <Mysql/>, <Bootstrap/>], payment: 0 },
+    { name: "Panel de usuario", image: panel_inicio, url: "https://panel-de-usuario.vercel.app", icons: [<Html/>, <Css/>, <Javascript/>, <Nodejs/>, <Mysql/>, <Bootstrap/>], payment: 0 },
     { name: "Tienda e-commerce", image: react_ecommerce, url: "https://cscristianmoreno.github.io/react-ecommerce/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>, <Bootstrap/>], payment: 0 },
     { name: "Buscador de hoteles", image: react_hotel_search, url: "https://cscristianmoreno.github.io/react-hotel-search/#", icons: [<React/>, <Html/>, <Css/>, <Javascript/>, <Bootstrap/>, <Nodejs/>], payment: 0 },
     { name: "Fundación Salteña de Tartamudez", image: fundacion, url: "https://salta-fundacion-tartamudez.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>, <Bootstrap/>], payment: 0 },
