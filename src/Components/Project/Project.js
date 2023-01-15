@@ -37,7 +37,7 @@ const PROJECTS = [
     { name: "Anovo", image: anovo, url: "https://proyecto-anovo.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 1 },
     { name: "Proyecto Spotify", image: spotify, url: "https://cristian-moreno-frontend.vercel.app/#", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 0 },
     { name: "Search Image", image: search_image, url: "", icons: [<React/>, <Css/>, <Javascript/>, <Sqlite/>], payment: 0 },
-    { name: "Profesor de matemáticas", image: profesor_matematicas, url: "https://proyecto-rodrigo-torres.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Typescript/>], payment: 0 },
+    { name: "Profesor de matemáticas", image: profesor_matematicas, url: "https://proyecto-rodrigo-torres.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Typescript/>], payment: 1 },
 ]
 
 const PROJECTS_DESCRIPTION = [
@@ -49,6 +49,7 @@ const PROJECTS_DESCRIPTION = [
     "Anovo es un proyecto realizado para una compañía el cual se ocupa de brindar soluciones.",
     "Este proyecto utiliza la API de Spotify para obtener los álbumes de los usuarios.",
     "Esta app utiliza la API de Pexels y una base de datos para buscar y almacenar imágenes.",
+    "Este proyecto éstá hecho para un profesor de matemáticas.",
 ]
 
 const Project = () => {
