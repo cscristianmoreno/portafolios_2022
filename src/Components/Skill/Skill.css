@@ -48,6 +48,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* border-style: solid; */
+    /* width: 50px; */
+    height: 75px;
 }
 
 .class_skill span {

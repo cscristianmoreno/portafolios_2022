@@ -16,6 +16,7 @@ import reforce from "./images/reforce.jpg";
 import anovo from "./images/anovo.jpg";
 import spotify from "./images/spotify.jpg";
 import search_image from "./images/search_image.jpg";
+import profesor_matematicas from "./images/profesor_matematicas.jpg";
 
 import Html from "../Skill/images/Html.js";
 import Css from "../Skill/images/Css.js";
@@ -25,6 +26,7 @@ import Mysql from "../Skill/images/Mysql.js";
 import React from "../Skill/images/React.js";
 import Bootstrap from "../Skill/images/Boostrap.js";
 import Sqlite from "../Skill/images/Sqlite.js";
+import Typescript from "../Skill/images/Typescript.js";
 
 const PROJECTS = [
     { name: "Panel de usuario", image: panel_inicio, url: "https://panel-de-usuario.vercel.app", icons: [<Html/>, <Css/>, <Javascript/>, <Nodejs/>, <Mysql/>, <Bootstrap/>], payment: 0 },
@@ -35,6 +37,7 @@ const PROJECTS = [
     { name: "Anovo", image: anovo, url: "https://proyecto-anovo.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 1 },
     { name: "Proyecto Spotify", image: spotify, url: "https://cristian-moreno-frontend.vercel.app/#", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 0 },
     { name: "Search Image", image: search_image, url: "", icons: [<React/>, <Css/>, <Javascript/>, <Sqlite/>], payment: 0 },
+    { name: "Profesor de matemáticas", image: profesor_matematicas, url: "https://proyecto-rodrigo-torres.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Typescript/>], payment: 0 },
 ]
 
 const PROJECTS_DESCRIPTION = [
