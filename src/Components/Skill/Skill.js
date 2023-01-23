@@ -143,7 +143,7 @@ const Skill = () => {
                 </div>
             </div>
 
-            <div className="class_skill_icon">
+            <div className="class_skill_icon class_icon_typescript">
                 <div ref={addRef} className="class_skill">
                     <Typescript/>
                     <span>TypeScript</span>
