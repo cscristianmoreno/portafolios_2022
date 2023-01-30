@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ec03b0c8.css",
-    "main.js": "/static/js/main.39ae8eab.js",
+    "main.js": "/static/js/main.a595852d.js",
     "static/media/react-hotel-search.jpg": "/static/media/react-hotel-search.be33b2b4a521ebf60ca5.jpg",
     "static/media/fundacion.jpg": "/static/media/fundacion.18ff8a2b48a6668f2084.jpg",
     "static/media/spotify.jpg": "/static/media/spotify.f02b08f9a35ecba15c78.jpg",
@@ -10,8 +10,8 @@
     "static/media/profesor_matematicas.jpg": "/static/media/profesor_matematicas.01cb34d0421e8b83fed5.jpg",
     "static/media/panel_inicio.jpg": "/static/media/panel_inicio.c8b690f44e8eedd02a02.jpg",
     "static/media/reforce.jpg": "/static/media/reforce.ff06af3fd48c93f8ae7b.jpg",
+    "static/media/photo.jpg": "/static/media/photo.32da087d155ae16e0191.jpg",
     "static/media/react-ecommerce.png": "/static/media/react-ecommerce.959bb0a77410c335a93f.png",
-    "static/media/photo.jpg": "/static/media/photo.76830257ef64de49dc03.jpg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.ec03b0c8.css",
-    "static/js/main.39ae8eab.js"
+    "static/js/main.a595852d.js"
   ]
 }
