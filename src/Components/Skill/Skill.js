@@ -17,6 +17,7 @@ import Sqlite from "./images/Sqlite.js";
 import Filezilla from "./images/Filezilla.js";
 import ReactNative from "./images/ReactNative.js";
 import Typescript from "./images/Typescript.js";
+import Angular from "./images/Angular.js";
 
 
 const Skill = () => {
@@ -147,6 +148,11 @@ const Skill = () => {
                 <div ref={addRef} className="class_skill">
                     <Typescript/>
                     <span>TypeScript</span>
+                </div>
+
+                <div ref={addRef} className="class_skill">
+                    <Angular/>
+                    <span>Angular</span>
                 </div>
             </div>
         </div>
