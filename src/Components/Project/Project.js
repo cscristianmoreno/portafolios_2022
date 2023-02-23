@@ -136,7 +136,8 @@ const Project = () => {
                                                         <i className="fas fa-briefcase"/>&nbsp;&nbsp;
                                                         
                                                         <div className="class_project_title_link">
-                                                            <span>{str.name} {(str.payment) ? <span className="class_project_payment">&nbsp;(FREELANCE)</span> : null}</span>
+                                                            <span>{str.name}</span>
+                                                            {(str.payment) ? <span className="class_project_payment">&nbsp;(FREELANCE)</span> : null}
                                                             <span className="class_project_subtitle_link">(Click para navegar)</span>
                                                         </div>
 

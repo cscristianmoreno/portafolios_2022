@@ -156,11 +156,6 @@
         width: 40px !important;
     }
 
-    .class_project_description_text_title, .class_project_description_text, .class_project_payment {
-        /* width: auto !important; */
-        font-size: 13px !important;
-    }
-
     .class_project_page {
         font-size: 11px !important;
     }

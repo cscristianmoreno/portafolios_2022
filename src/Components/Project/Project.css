@@ -203,6 +203,7 @@
 .class_project_payment {
     color: #ce4949;
     font-weight: bolder;
+    font-size: 12px !important;
 }
 
 .class_project_description_container {
