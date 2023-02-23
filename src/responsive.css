@@ -143,7 +143,9 @@
     }
 
     .class_project_image_container {
-        height: 500px !important;
+        /* height: 200px !important; */
+        width: 33.3% !important;
+        margin-left: calc(33% / 3) !important;
     }
 
     .class_project_description_text, .class_project_description_text_title {
@@ -174,6 +176,14 @@
 
     .class_popup_container {
         margin-top: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .class_project_image_container {
+        /* height: 200px !important; */
+        width: 90% !important;
+        margin-left: calc(10% / 2) !important;
     }
 }
 
@@ -218,6 +228,9 @@
 
 /* Galaxy Fold */
 @media only screen and (max-width: 280px) {
+    .class_project_description_title {
+        font-size: 10px !important;
+    }
 }
 
 /* Nest Hub */

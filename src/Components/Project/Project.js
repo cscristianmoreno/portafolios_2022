@@ -28,6 +28,7 @@ import React from "../Skill/images/React.js";
 import Bootstrap from "../Skill/images/Boostrap.js";
 import Sqlite from "../Skill/images/Sqlite.js";
 import Typescript from "../Skill/images/Typescript.js";
+import Angular from "../Skill/images/Angular.js";
 
 const PROJECTS = [
     { name: "Panel de usuario", image: panel_inicio, url: "https://panel-de-usuario.vercel.app", icons: [<Html/>, <Css/>, <Javascript/>, <Nodejs/>, <Mysql/>, <Bootstrap/>], payment: 0 },
@@ -39,7 +40,7 @@ const PROJECTS = [
     { name: "Proyecto Spotify", image: spotify, url: "https://cristian-moreno-frontend.vercel.app/#", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 0 },
     { name: "Search Image", image: search_image, url: "", icons: [<React/>, <Css/>, <Javascript/>, <Sqlite/>], payment: 0 },
     { name: "Profesor de matemáticas", image: profesor_matematicas, url: "https://proyecto-rodrigo-torres.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Typescript/>], payment: 1 },
-    { name: "Electronic Shop", image: electronic_shop, url: "https://angular-ecommerce-phi.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Typescript/>], payment: 0 },
+    { name: "Electronic Shop", image: electronic_shop, url: "https://angular-ecommerce-phi.vercel.app/", icons: [<Angular/>, <Html/>, <Css/>, <Typescript/>], payment: 0 },
 ]
 
 const PROJECTS_DESCRIPTION = [
@@ -120,10 +121,7 @@ const Project = () => {
         <div ref={indexRef} className="class_project_container">
             <span ref={addRef} className="class_title"><i className="fas fa-briefcase"/>Proyectos</span>
 
-            <div className="class_project_slider_container">
-
-                <Slider {...settings} className="class_project_main">
-
+            <div className="class_project_main">
                     {
                         PROJECTS.map((str, num) => {
                             return(
@@ -165,10 +163,10 @@ const Project = () => {
                                         <div className="class_project_icons_separated"/>
                                         
 
-                                        <div className="class_project_description_text_container">
+                                        {/* <div className="class_project_description_text_container">
                                             <span className="class_project_description_text_title">DESCRIPCIÓN:</span>
                                             <span className="class_project_description_text">{PROJECTS_DESCRIPTION[num]}</span>    
-                                        </div>
+                                        </div> */}
 
                                         {/* <div className="class_project_icons_separated"/> */}
                                         
@@ -185,7 +183,6 @@ const Project = () => {
                             )
                         })
                     }
-                </Slider>
             </div>
         </div>
     );
