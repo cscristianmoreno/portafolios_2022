@@ -17,6 +17,7 @@ import anovo from "./images/anovo.jpg";
 import spotify from "./images/spotify.jpg";
 import search_image from "./images/search_image.jpg";
 import profesor_matematicas from "./images/profesor_matematicas.jpg";
+import electronic_shop from "./images/electronic_shop.jpg";
 
 import Html from "../Skill/images/Html.js";
 import Css from "../Skill/images/Css.js";
@@ -38,6 +39,7 @@ const PROJECTS = [
     { name: "Proyecto Spotify", image: spotify, url: "https://cristian-moreno-frontend.vercel.app/#", icons: [<React/>, <Html/>, <Css/>, <Javascript/>], payment: 0 },
     { name: "Search Image", image: search_image, url: "", icons: [<React/>, <Css/>, <Javascript/>, <Sqlite/>], payment: 0 },
     { name: "Profesor de matemáticas", image: profesor_matematicas, url: "https://proyecto-rodrigo-torres.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Typescript/>], payment: 1 },
+    { name: "Electronic Shop", image: electronic_shop, url: "https://angular-ecommerce-phi.vercel.app/", icons: [<React/>, <Html/>, <Css/>, <Typescript/>], payment: 0 },
 ]
 
 const PROJECTS_DESCRIPTION = [
@@ -50,6 +52,7 @@ const PROJECTS_DESCRIPTION = [
     "Este proyecto utiliza la API de Spotify para obtener los álbumes de los usuarios.",
     "Esta app utiliza la API de Pexels y una base de datos para buscar y almacenar imágenes.",
     "Este proyecto éstá hecho para un profesor de matemáticas.",
+    "Comercio electrónico minimalista realizado con Angular.",
 ]
 
 const Project = () => {
