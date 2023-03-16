@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e2a130b.css",
-    "main.js": "/static/js/main.afdfca28.js",
-    "static/media/react-hotel-search.jpg": "/static/media/react-hotel-search.be33b2b4a521ebf60ca5.jpg",
-    "static/media/fundacion.jpg": "/static/media/fundacion.18ff8a2b48a6668f2084.jpg",
-    "static/media/spotify.jpg": "/static/media/spotify.f02b08f9a35ecba15c78.jpg",
-    "static/media/search_image.jpg": "/static/media/search_image.12f85edc5e06a8c6cbbc.jpg",
-    "static/media/anovo.jpg": "/static/media/anovo.347160eb006e41069e1c.jpg",
-    "static/media/profesor_matematicas.jpg": "/static/media/profesor_matematicas.01cb34d0421e8b83fed5.jpg",
-    "static/media/electronic_shop.jpg": "/static/media/electronic_shop.50c6ef6ed49050bab52f.jpg",
-    "static/media/panel_inicio.jpg": "/static/media/panel_inicio.c8b690f44e8eedd02a02.jpg",
-    "static/media/reforce.jpg": "/static/media/reforce.ff06af3fd48c93f8ae7b.jpg",
-    "static/media/photo.jpg": "/static/media/photo.32da087d155ae16e0191.jpg",
-    "static/media/react-ecommerce.png": "/static/media/react-ecommerce.959bb0a77410c335a93f.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html"
+    "main.css": "/portafolios_2022/static/css/main.934b6b57.css",
+    "main.js": "/portafolios_2022/static/js/main.db306cd8.js",
+    "static/media/react-hotel-search.jpg": "/portafolios_2022/static/media/react-hotel-search.be33b2b4a521ebf60ca5.jpg",
+    "static/media/fundacion.jpg": "/portafolios_2022/static/media/fundacion.18ff8a2b48a6668f2084.jpg",
+    "static/media/spotify.jpg": "/portafolios_2022/static/media/spotify.f02b08f9a35ecba15c78.jpg",
+    "static/media/search_image.jpg": "/portafolios_2022/static/media/search_image.12f85edc5e06a8c6cbbc.jpg",
+    "static/media/anovo.jpg": "/portafolios_2022/static/media/anovo.347160eb006e41069e1c.jpg",
+    "static/media/profesor_matematicas.jpg": "/portafolios_2022/static/media/profesor_matematicas.01cb34d0421e8b83fed5.jpg",
+    "static/media/electronic_shop.jpg": "/portafolios_2022/static/media/electronic_shop.50c6ef6ed49050bab52f.jpg",
+    "static/media/panel_inicio.jpg": "/portafolios_2022/static/media/panel_inicio.c8b690f44e8eedd02a02.jpg",
+    "static/media/reforce.jpg": "/portafolios_2022/static/media/reforce.ff06af3fd48c93f8ae7b.jpg",
+    "static/media/photo.jpg": "/portafolios_2022/static/media/photo.32da087d155ae16e0191.jpg",
+    "static/media/react-ecommerce.png": "/portafolios_2022/static/media/react-ecommerce.959bb0a77410c335a93f.png",
+    "static/media/slick.svg": "/portafolios_2022/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portafolios_2022/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portafolios_2022/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portafolios_2022/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portafolios_2022/index.html"
   },
   "entrypoints": [
-    "static/css/main.2e2a130b.css",
-    "static/js/main.afdfca28.js"
+    "static/css/main.934b6b57.css",
+    "static/js/main.db306cd8.js"
   ]
 }
